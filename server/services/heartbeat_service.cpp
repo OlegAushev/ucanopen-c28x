@@ -1,6 +1,4 @@
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/server/services/heartbeat_service.hpp>
+#include <ucanopen-c28x/server/services/heartbeat_service.hpp>
 
 namespace ucanopen {
 
@@ -26,5 +24,3 @@ void HeartbeatService::send() {
 }
 
 } // namespace ucanopen
-
-#endif

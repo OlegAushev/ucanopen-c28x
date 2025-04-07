@@ -1,9 +1,7 @@
 #pragma once
 
-#ifdef MCUDRV_C28X
-
 #include <mcudrv-c28x/f2837xd/can/can.hpp>
-#include <ucanopen/c28x/ucanopen_def.hpp>
+#include <ucanopen-c28x/ucanopen_def.hpp>
 #include <emblib/static_vector.hpp>
 #include <algorithm>
 #include <vector>
@@ -59,5 +57,3 @@ public:
 
 } // namesppace impl
 } // namespace ucanopen
-
-#endif

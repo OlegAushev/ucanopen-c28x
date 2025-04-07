@@ -1,6 +1,4 @@
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/server/services/rpdo_service.hpp>
+#include <ucanopen-c28x/server/services/rpdo_service.hpp>
 
 namespace ucanopen {
 
@@ -57,5 +55,3 @@ void RpdoService::handle() {
 }
 
 } // namespace ucanopen
-
-#endif

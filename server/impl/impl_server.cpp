@@ -1,6 +1,4 @@
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/server/impl/impl_server.hpp>
+#include <ucanopen-c28x/server/impl/impl_server.hpp>
 
 namespace ucanopen {
 
@@ -122,5 +120,3 @@ void impl::Server::init_object_dictionary() {
 }
 
 } // namespace ucanopen
-
-#endif

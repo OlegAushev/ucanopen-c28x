@@ -1,8 +1,6 @@
 #pragma once
 
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/server/impl/impl_server.hpp>
+#include <ucanopen-c28x/server/impl/impl_server.hpp>
 #include <emblib/algorithm.hpp>
 #include <emblib/queue.hpp>
 
@@ -55,5 +53,3 @@ template<typename T, size_t Size>
 uint32_t* SdoProvider<T, Size>::sdo_data[Size];
 
 } // namespace ucanopen
-
-#endif

@@ -1,6 +1,4 @@
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/server/services/sdo_service.hpp>
+#include <ucanopen-c28x/server/services/sdo_service.hpp>
 
 namespace ucanopen {
 
@@ -173,5 +171,3 @@ SdoAbortCode SdoService::restore_default_parameter(ODObjectKey key) {
 }
 
 } // namespace ucanopen
-
-#endif

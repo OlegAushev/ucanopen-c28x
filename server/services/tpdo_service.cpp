@@ -1,6 +1,4 @@
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/server/services/tpdo_service.hpp>
+#include <ucanopen-c28x/server/services/tpdo_service.hpp>
 
 namespace ucanopen {
 
@@ -44,5 +42,3 @@ void TpdoService::send() {
 }
 
 } // namespace ucanopen
-
-#endif

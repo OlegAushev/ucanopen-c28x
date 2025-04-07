@@ -1,8 +1,6 @@
 #pragma once
 
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/ucanopen_def.hpp>
+#include <ucanopen-c28x/ucanopen_def.hpp>
 #include <emblib/chrono.hpp>
 #include <emblib/static_vector.hpp>
 
@@ -57,5 +55,3 @@ protected:
 };
 
 } // namespace ucanopen
-
-#endif

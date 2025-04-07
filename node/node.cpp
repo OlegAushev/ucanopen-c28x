@@ -1,7 +1,5 @@
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/node/node.hpp>
-#include <ucanopen/c28x/server/server.hpp>
+#include <ucanopen-c28x/node/node.hpp>
+#include <ucanopen-c28x/server/server.hpp>
 
 namespace ucanopen {
 
@@ -127,5 +125,3 @@ bool Node::good() const {
 }
 
 } // namespace ucanopen
-
-#endif

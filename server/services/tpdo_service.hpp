@@ -1,8 +1,6 @@
 #pragma once
 
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/server/impl/impl_server.hpp>
+#include <ucanopen-c28x/server/impl/impl_server.hpp>
 #include <emblib/chrono.hpp>
 
 namespace ucanopen {
@@ -26,5 +24,3 @@ public:
 };
 
 } // namespace ucanopen
-
-#endif

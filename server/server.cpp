@@ -1,6 +1,4 @@
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/server/server.hpp>
+#include <ucanopen-c28x/server/server.hpp>
 
 namespace ucanopen {
 
@@ -106,5 +104,3 @@ void Server::register_node_cob(Node* node, uint32_t obj_id) {
 }
 
 } // namespace ucanopen
-
-#endif

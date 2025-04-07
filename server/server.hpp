@@ -1,14 +1,12 @@
 #pragma once
 
-#ifdef MCUDRV_C28X
-
-#include <ucanopen/c28x/ucanopen_def.hpp>
-#include <ucanopen/c28x/server/impl/impl_server.hpp>
-#include <ucanopen/c28x/server/services/heartbeat_service.hpp>
-#include <ucanopen/c28x/server/services/rpdo_service.hpp>
-#include <ucanopen/c28x/server/services/sdo_service.hpp>
-#include <ucanopen/c28x/server/services/tpdo_service.hpp>
-#include <ucanopen/c28x/node/node.hpp>
+#include <ucanopen-c28x/ucanopen_def.hpp>
+#include <ucanopen-c28x/server/impl/impl_server.hpp>
+#include <ucanopen-c28x/server/services/heartbeat_service.hpp>
+#include <ucanopen-c28x/server/services/rpdo_service.hpp>
+#include <ucanopen-c28x/server/services/sdo_service.hpp>
+#include <ucanopen-c28x/server/services/tpdo_service.hpp>
+#include <ucanopen-c28x/node/node.hpp>
 
 namespace ucanopen {
 
@@ -71,5 +69,3 @@ public:
 };
 
 } // namespace ucanopen
-
-#endif

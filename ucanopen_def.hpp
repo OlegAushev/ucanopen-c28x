@@ -1,7 +1,5 @@
 #pragma once
 
-#ifdef MCUDRV_C28X
-
 #include <emblib/can.hpp>
 #include <emblib/core.hpp>
 #include <emblib/optional.hpp>
@@ -324,8 +322,4 @@ struct ODView {
     size_t size;
 };
 
-
 } // namespace ucanopen
-
-
-#endif
