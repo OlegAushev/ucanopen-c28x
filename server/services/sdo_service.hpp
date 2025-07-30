@@ -1,8 +1,8 @@
 #pragma once
 
 #include <ucanopen-c28x/server/impl/impl_server.hpp>
-#include <emblib/algorithm.hpp>
-#include <emblib/queue.hpp>
+#include <emb/algorithm.hpp>
+#include <emb/queue.hpp>
 
 namespace ucanopen {
 

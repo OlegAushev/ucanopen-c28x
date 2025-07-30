@@ -1,7 +1,7 @@
 #pragma once
 
 #include <ucanopen-c28x/server/impl/impl_server.hpp>
-#include <emblib/chrono.hpp>
+#include <emb/chrono.hpp>
 
 namespace ucanopen {
 

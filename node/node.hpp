@@ -1,8 +1,8 @@
 #pragma once
 
 #include <ucanopen-c28x/ucanopen_def.hpp>
-#include <emblib/chrono.hpp>
-#include <emblib/static_vector.hpp>
+#include <emb/chrono.hpp>
+#include <emb/static_vector.hpp>
 
 namespace ucanopen {
 

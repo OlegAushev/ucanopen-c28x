@@ -1,8 +1,8 @@
 #pragma once
 
-#include <emblib/can.hpp>
-#include <emblib/optional.hpp>
-#include <emblib/scopedenum.hpp>
+#include <emb/can.hpp>
+#include <emb/optional.hpp>
+#include <emb/scopedenum.hpp>
 #include <cstring>
 #include <utility>
 
