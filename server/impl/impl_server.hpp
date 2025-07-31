@@ -1,6 +1,6 @@
 #pragma once
 
-#include <mcudrv-c28x/f2837xd/can/can.hpp>
+#include <mcu/c28x/can.hpp>
 #include <ucanopen-c28x/ucanopen_def.hpp>
 #include <emb/static_vector.hpp>
 #include <algorithm>
